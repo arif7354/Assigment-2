@@ -28,6 +28,15 @@ padding-bottom: 20px;
     font-weight: 700px;
     border-radius: 41px;
 }
+.btk{
+    text-decoration: none;
+    color:salmon ;
+    
+}
+.center{
+    text-align: right;
+    margin-right: 50px;
+}
 .size{
     display: flex;
     justify-content: space-around;
@@ -38,14 +47,41 @@ padding-bottom: 20px;
 .main-popular{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-left: 40px;
+   
 }
-.popular .popular-product img{
-    width: 300px;
-    height: 256px
+.section-title{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .fa-star{
     color: gold;
 }
 .pera-color{
     color: lightslategray;
+}
+/* Bonus-project */
+.bonus{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 80px;
+    justify-content: center;
+}
+.imeg{
+    padding-right: 40px;
+    
+}
+.imeg-info p{
+    color: #6C6C6C;
+}
+/* footer  */
+.footer{
+    background-color: #0A0826;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+.i-con{
+    padding-bottom: 10px;
 }
