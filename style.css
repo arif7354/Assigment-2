@@ -1,0 +1,60 @@
+/* google-font */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:80px;
+
+}
+.infulencer-detels{
+    margin-left: 30px;
+}
+.infulencer-detels h1{
+    font-size: 52px;
+    margin-bottom: 0;
+}
+.infulencer-detels p{
+padding-bottom: 20px;
+
+}
+.btn{
+    width: 196px;
+    background-color: salmon;
+    padding: 10px 24px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700px;
+    border-radius: 41px;
+}
+.size{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+/* popular-collection */
+.center{
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 40px;
+}
+.thumnil{
+    width: 300px;
+    height: 256px;
+}
+.star{
+    display: flex;
+    margin-top: -20;
+}
+.pera{
+    padding-top: -30;
+}
+.product-detels{
+    width: 300px; 
+height: 256px; 
+border-radius: 5px;
+padding-top: 20px;
+padding: 40px;
+}
