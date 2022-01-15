@@ -110,4 +110,10 @@ padding-bottom: 20px;
         margin: 0;
         padding-right: 50px;
     }
+    .infulencer-img img{
+        width: 80%;
+    }
+    .infulencer-detels{
+        width: 80%;
+    }
 }
